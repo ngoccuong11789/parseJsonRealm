@@ -12,9 +12,19 @@
 		AE30E9601E93A8460033FF36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE30E95E1E93A8460033FF36 /* Main.storyboard */; };
 		AE30E9621E93A8460033FF36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE30E9611E93A8460033FF36 /* Assets.xcassets */; };
 		AE30E9651E93A8460033FF36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE30E9631E93A8460033FF36 /* LaunchScreen.storyboard */; };
+		AE4CD2DB1E948B7F00D1EC1E /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CD2DA1E948B7F00D1EC1E /* APIManager.swift */; };
+		AE4CD2DD1E94973E00D1EC1E /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CD2DC1E94973E00D1EC1E /* Artist.swift */; };
+		AE4CD2DF1E94D52500D1EC1E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4CD2DE1E94D52500D1EC1E /* TableViewCell.swift */; };
+		AE6D1A8E1E9B443000711064 /* ListArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D1A8D1E9B443000711064 /* ListArtist.swift */; };
+		AE6D1A901E9C95D800711064 /* List_Kiyaku_Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D1A8F1E9C95D700711064 /* List_Kiyaku_Artist.swift */; };
+		AE6D1A921E9C96DD00711064 /* Kiyaku_Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D1A911E9C96DD00711064 /* Kiyaku_Artist.swift */; };
+		AE6D1A941E9C996E00711064 /* Kiyaku.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D1A931E9C996E00711064 /* Kiyaku.swift */; };
+		AE6D1A961E9C99E000711064 /* List_Kiyaku.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D1A951E9C99E000711064 /* List_Kiyaku.swift */; };
+		C07B82A42AE87620659D7C5C /* Pods_parseJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461A7DB4D420E71DC1CCD745 /* Pods_parseJson.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		461A7DB4D420E71DC1CCD745 /* Pods_parseJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_parseJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE30E9571E93A8460033FF36 /* parseJson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parseJson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE30E95A1E93A8460033FF36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE30E95C1E93A8460033FF36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,16 @@
 		AE30E9611E93A8460033FF36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE30E9641E93A8460033FF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE30E9661E93A8460033FF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4CD2DA1E948B7F00D1EC1E /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		AE4CD2DC1E94973E00D1EC1E /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		AE4CD2DE1E94D52500D1EC1E /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AE6D1A8D1E9B443000711064 /* ListArtist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListArtist.swift; sourceTree = "<group>"; };
+		AE6D1A8F1E9C95D700711064 /* List_Kiyaku_Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List_Kiyaku_Artist.swift; sourceTree = "<group>"; };
+		AE6D1A911E9C96DD00711064 /* Kiyaku_Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kiyaku_Artist.swift; sourceTree = "<group>"; };
+		AE6D1A931E9C996E00711064 /* Kiyaku.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kiyaku.swift; sourceTree = "<group>"; };
+		AE6D1A951E9C99E000711064 /* List_Kiyaku.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List_Kiyaku.swift; sourceTree = "<group>"; };
+		B13907BE2942AA3FC08F2518 /* Pods-parseJson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parseJson.release.xcconfig"; path = "Pods/Target Support Files/Pods-parseJson/Pods-parseJson.release.xcconfig"; sourceTree = "<group>"; };
+		C215DAE8AF08A526DCEE5E76 /* Pods-parseJson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parseJson.debug.xcconfig"; path = "Pods/Target Support Files/Pods-parseJson/Pods-parseJson.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C07B82A42AE87620659D7C5C /* Pods_parseJson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BE20A0D414E08F1A55C1049 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C215DAE8AF08A526DCEE5E76 /* Pods-parseJson.debug.xcconfig */,
+				B13907BE2942AA3FC08F2518 /* Pods-parseJson.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		377C14F4ECF84661017EE652 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				461A7DB4D420E71DC1CCD745 /* Pods_parseJson.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE30E94E1E93A8460033FF36 = {
 			isa = PBXGroup;
 			children = (
 				AE30E9591E93A8460033FF36 /* parseJson */,
 				AE30E9581E93A8460033FF36 /* Products */,
+				2BE20A0D414E08F1A55C1049 /* Pods */,
+				377C14F4ECF84661017EE652 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +94,10 @@
 		AE30E9591E93A8460033FF36 /* parseJson */ = {
 			isa = PBXGroup;
 			children = (
+				AE4CD2D91E948B5900D1EC1E /* Manager */,
+				AE4CD2D81E9487E100D1EC1E /* Controller */,
+				AE4CD2D71E9487DB00D1EC1E /* View */,
+				AE4CD2D61E9487D400D1EC1E /* Model */,
 				AE30E95A1E93A8460033FF36 /* AppDelegate.swift */,
 				AE30E95C1E93A8460033FF36 /* ViewController.swift */,
 				AE30E95E1E93A8460033FF36 /* Main.storyboard */,
@@ -64,6 +108,42 @@
 			path = parseJson;
 			sourceTree = "<group>";
 		};
+		AE4CD2D61E9487D400D1EC1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE4CD2DC1E94973E00D1EC1E /* Artist.swift */,
+				AE6D1A8D1E9B443000711064 /* ListArtist.swift */,
+				AE6D1A8F1E9C95D700711064 /* List_Kiyaku_Artist.swift */,
+				AE6D1A911E9C96DD00711064 /* Kiyaku_Artist.swift */,
+				AE6D1A931E9C996E00711064 /* Kiyaku.swift */,
+				AE6D1A951E9C99E000711064 /* List_Kiyaku.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AE4CD2D71E9487DB00D1EC1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE4CD2DE1E94D52500D1EC1E /* TableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AE4CD2D81E9487E100D1EC1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AE4CD2D91E948B5900D1EC1E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AE4CD2DA1E948B7F00D1EC1E /* APIManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE30E9691E93A8460033FF36 /* Build configuration list for PBXNativeTarget "parseJson" */;
 			buildPhases = (
+				7B84846B95B4A133C61364F3 /* [CP] Check Pods Manifest.lock */,
 				AE30E9531E93A8460033FF36 /* Sources */,
 				AE30E9541E93A8460033FF36 /* Frameworks */,
 				AE30E9551E93A8460033FF36 /* Resources */,
+				13BDBC2CCE01ACA22E895E70 /* [CP] Embed Pods Frameworks */,
+				C7B7DAAEEAE6DF66F8BA3316 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +179,7 @@
 				TargetAttributes = {
 					AE30E9561E93A8460033FF36 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 5JR82ZDZUZ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,12 +215,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13BDBC2CCE01ACA22E895E70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-parseJson/Pods-parseJson-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B84846B95B4A133C61364F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7B7DAAEEAE6DF66F8BA3316 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-parseJson/Pods-parseJson-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE30E9531E93A8460033FF36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE4CD2DF1E94D52500D1EC1E /* TableViewCell.swift in Sources */,
+				AE4CD2DB1E948B7F00D1EC1E /* APIManager.swift in Sources */,
+				AE6D1A921E9C96DD00711064 /* Kiyaku_Artist.swift in Sources */,
+				AE6D1A961E9C99E000711064 /* List_Kiyaku.swift in Sources */,
+				AE6D1A941E9C996E00711064 /* Kiyaku.swift in Sources */,
 				AE30E95D1E93A8460033FF36 /* ViewController.swift in Sources */,
+				AE6D1A901E9C95D800711064 /* List_Kiyaku_Artist.swift in Sources */,
+				AE4CD2DD1E94973E00D1EC1E /* Artist.swift in Sources */,
+				AE6D1A8E1E9B443000711064 /* ListArtist.swift in Sources */,
 				AE30E95B1E93A8460033FF36 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,9 +400,12 @@
 		};
 		AE30E96A1E93A8460033FF36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C215DAE8AF08A526DCEE5E76 /* Pods-parseJson.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5JR82ZDZUZ;
 				INFOPLIST_FILE = parseJson/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ReaWonKim.parseJson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +415,12 @@
 		};
 		AE30E96B1E93A8460033FF36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13907BE2942AA3FC08F2518 /* Pods-parseJson.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5JR82ZDZUZ;
 				INFOPLIST_FILE = parseJson/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ReaWonKim.parseJson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +447,7 @@
 				AE30E96B1E93A8460033FF36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
